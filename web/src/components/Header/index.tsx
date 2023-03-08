@@ -1,7 +1,5 @@
 import React from 'react';
 
-import logo from "../../assets/bx-logo.svg";
-
 import { Container } from './styles';
 
 interface Props {

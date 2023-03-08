@@ -6,9 +6,6 @@ import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs';
 import { addMovie, favMoviesStore, removeMovie } from 'Store/favMoviesStore';
 
-import { useSettings } from 'hooks/settings';
-
-
 import { Actor, Container, Description, FavoriteButton, Information, Poster, Review, Title } from './styles';
 
 
