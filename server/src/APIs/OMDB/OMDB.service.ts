@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { MovieNotFound } from "src/Movie/dtos/MovieNotFound";
-import { Movie } from "src/Movie/dtos/Movie";
+import MovieNotFound from "src/Movie/dtos/MovieNotFound";
+import Movie from "src/Movie/dtos/Movie";
 import OMDB from "./OMDB.api";
 
 @Injectable()
